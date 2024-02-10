@@ -4,6 +4,7 @@ import Dashboard from "../Pages/Dashboard";
 
 class PrivateRoutes extends Component {
   constructor(props) {
+    // super
     super(props);
     const getLocalStorage = JSON.parse(localStorage.getItem("isLogin"));
     this.state = {
