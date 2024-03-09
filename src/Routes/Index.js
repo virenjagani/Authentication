@@ -9,7 +9,6 @@ import ProductModel from "../Pages/Products/ProductModel";
 
 class Index extends Component {
   render() {
-    console.log(false == null);
     return (
       <>
         <Switch>
