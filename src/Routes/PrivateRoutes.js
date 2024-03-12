@@ -8,6 +8,7 @@ class PrivateRoutes extends Component {
     super(props);
     const getLocalStorage = JSON.parse(localStorage.getItem("isLogin"));
     this.state = {
+      //state
       getLocalStorage: getLocalStorage,
     };
   }
